@@ -53,7 +53,7 @@ public:
     }
 };
 
-template<class T>   //Using This for talking Input Without Variables.
+template<class T>   //Using This for taking Input Without Variables.
 T get(istream& is){ //use get<int>(cin).
     T val;
     is>>val;
